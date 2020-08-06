@@ -17,8 +17,8 @@ body {
 }
 
 #overlay {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.2;
+    background-color: rgb(160, 160, 160);
+    opacity: 0.3;
     position: absolute;
     height: 100%;
     z-index: -1;
@@ -30,6 +30,7 @@ body {
 
 #showcase h1 {
     color: rgb(233, 233, 233);
+    font-size: 27px;
     z-index: 0;
     top: 70vh;
     position: absolute;
@@ -38,21 +39,21 @@ body {
     justify-content: center;
     background: rgb(131,131,131);
     background: linear-gradient(90deg, rgba(131,131,131,1) 0%, rgba(16,62,164,1) 100%);
-    width: 70%;
+    width: 60%;
     border-radius: 20px;
+    border: white solid 2px;
 }
 
 #showcase p {
     color: white;
     position: absolute;
     top: 45vh;
-    left: 20vh;
-    width: 70%;
-    line-height: normal;
+    left: 5vh;
+    width: 60%;
+    line-height: ;
 }
 
 #citation-marks {
-    font-size: 2rem;
     font-weight: 500;
     font-family: 'Catamaran', sans-serif;
 }

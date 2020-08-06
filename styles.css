@@ -9,7 +9,7 @@ body {
 
 #showcase {
     position: relative;
-    background-image: url(/images/Yle_Vanha_joukkuekuva_Jussi_Ekroth.jpg);
+    background-image: url(../images/Yle_Vanha_joukkuekuva_Jussi_Ekroth.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;

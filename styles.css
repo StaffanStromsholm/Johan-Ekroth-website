@@ -1,3 +1,62 @@
+:root {
+    --main-bg-color: rgb(145, 43, 122);
+  }
+
 body {
-    background-color: rgb(218, 218, 218);
+    background-color: #ffffffe5;
+    margin: 0;
+}
+
+#showcase {
+    position: relative;
+    background-image: url(/images/Yle_Vanha_joukkuekuva_Jussi_Ekroth.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -1;
+}
+
+#overlay {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#showcase h1 {
+    color: rgb(233, 233, 233);
+    z-index: 0;
+    top: 70vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(131,131,131);
+    background: linear-gradient(90deg, rgba(131,131,131,1) 0%, rgba(16,62,164,1) 100%);
+    width: 70%;
+    border-radius: 20px;
+}
+
+#showcase p {
+    color: white;
+    position: absolute;
+    top: 45vh;
+    left: 20vh;
+    width: 70%;
+    line-height: normal;
+}
+
+#citation-marks {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#reference {
+    font-size: x-small;
 }

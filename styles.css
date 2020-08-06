@@ -1,10 +1,20 @@
 :root {
-    --main-bg-color: rgb(145, 43, 122);
+    --main-bg-color: rgb(156,51,57);
   }
 
 body {
     background-color: #ffffffe5;
     margin: 0;
+}
+
+.bg-light {
+    background-color: var(--main-bg-color) !important;
+    opacity: 0.7;
+    justify-content: space-around;
+}
+
+.bg-light .navbar-brand {
+    color: white;
 }
 
 #showcase {
@@ -16,7 +26,7 @@ body {
     z-index: -1;
 }
 
-#overlay {
+/* #overlay {
     background-color: rgb(160, 160, 160);
     opacity: 0.3;
     position: absolute;
@@ -26,7 +36,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-}
+} */
 
 #showcase h1 {
     color: rgb(233, 233, 233);
@@ -37,10 +47,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: rgb(131,131,131);
-    background: linear-gradient(90deg, rgba(131,131,131,1) 0%, rgba(16,62,164,1) 100%);
-    width: 60%;
-    border-radius: 20px;
+    background: var(--main-bg-color);
+    width: 100%;
     border: white solid 2px;
 }
 

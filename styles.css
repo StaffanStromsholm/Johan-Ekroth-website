@@ -14,7 +14,7 @@ body {
 }
 
 .bg-light .navbar-brand {
-    color: white;
+    color: rgb(196, 196, 196);
 }
 
 #home {

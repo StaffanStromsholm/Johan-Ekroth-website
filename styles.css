@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: rgb(156,51,57);
+    --main-bg-color: rgb(64, 110, 177);
   }
 
 body {
@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-#showcase {
+#home {
     position: relative;
     background-image: url(./images/Yle_Vanha_joukkuekuva_Jussi_Ekroth.jpg);
     background-size: cover;
@@ -27,8 +27,8 @@ body {
 }
 
 /* #overlay {
-    background-color: rgb(160, 160, 160);
-    opacity: 0.3;
+    background-color: #72333e;
+    opacity: 0.6;
     position: absolute;
     height: 100%;
     z-index: -1;
@@ -38,8 +38,8 @@ body {
     right: 0;
 } */
 
-#showcase h1 {
-    color: rgb(233, 233, 233);
+#home h1 {
+    color: rgb(196, 196, 196);
     font-size: 27px;
     z-index: 0;
     top: 70vh;
@@ -49,10 +49,11 @@ body {
     justify-content: center;
     background: var(--main-bg-color);
     width: 100%;
-    border: white solid 2px;
+    padding: 20px 20px;
+    /* border: white solid 2px; */
 }
 
-#showcase p {
+#home p {
     color: white;
     position: absolute;
     top: 45vh;

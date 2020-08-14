@@ -243,6 +243,28 @@ body.offcanvas-open .site-wrap {
   color: #000;
 }
 
+.offcanvas-toggle-fi {
+  position: fixed;
+  z-index: 89;
+  right: 80px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 13px;
+  top: 20px;
+  color: rgba(247, 56, 89, 0.9);
+}
+
+.offcanvas-toggle-swe {
+  position: fixed;
+  z-index: 89;
+  right: 50px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 13px;
+  top: 20px;
+  color: #000;
+}
+
 .offcanvas-toggle:hover {
   color: #000;
   opacity: .7;
@@ -658,7 +680,7 @@ main {
   margin-bottom: 20px;
 }
 
-.custom-media .icon span {
+.custom-media .icon ion-icon {
   font-size: 70px;
   color: #F73859;
 }

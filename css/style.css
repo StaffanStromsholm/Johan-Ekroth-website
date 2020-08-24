@@ -364,6 +364,7 @@ aside {
   background-size: cover;
   height: 400px;
   position: relative;
+  transition:opacity 0.5s linear;
 }
 
 @media (min-width: 576px) {
@@ -1507,4 +1508,8 @@ main {
 /* =========== CUSTOM CSS ============== */
 .home-button {
   margin-bottom: 40px;
+}
+
+.hidden {
+  opacity: 0;
 }

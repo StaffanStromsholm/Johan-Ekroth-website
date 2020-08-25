@@ -2,9 +2,9 @@ var aside1 = document.getElementById("aside1");
 var aside2 = document.getElementById("aside2");
 var aside3 = document.getElementById("aside3");
 
-aside1.style.backgroundImage = 'url("img/123.JPG")';
-aside2.style.backgroundImage = 'url("img/20171016_Ekroth_1.jpg")';
-aside3.style.backgroundImage = 'url("img/profile_big5.jpg")';
+aside1.style.backgroundImage = 'url("./img/123.JPG")';
+aside2.style.backgroundImage = 'url("./img/20171016_Ekroth_1.jpg")';
+aside3.style.backgroundImage = 'url("./img/profile_big5.jpg")';
 
 var asides = [aside1, aside2, aside3];
 
